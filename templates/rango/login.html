@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login Page</title>
+	</head>
+	<body>
+		<h1>Login to Rango</h1>
+		<form method="post" action="/rango/login/">
+			{%csrf_token%}
+			<input type="text" name="username" value="" size="50" />
+			<input type="password" name="password" value="" size="50" />
+			<input type="submit" name="register" value="submit" />
+		</form> 
+	</body>	
+</html>	
